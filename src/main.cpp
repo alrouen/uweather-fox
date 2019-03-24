@@ -7,7 +7,8 @@
 #include "convertions.h"
 
 // Collect interval (in milliseconds)
-#define COLLECT_INTERVAL 600000 // every 10 mins
+//#define COLLECT_INTERVAL 600000 // every 10 mins
+#define COLLECT_INTERVAL 3600000 // every 60 mins
 
 // Convertion class
 Convertion convertion = Convertion();
